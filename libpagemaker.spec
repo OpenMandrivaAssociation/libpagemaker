@@ -1,4 +1,4 @@
-%global major 0
+%global major 0.0
 %define libname %mklibname pagemaker %major
 %define devname %mklibname -d pagemaker
 %global apiversion 0.0
