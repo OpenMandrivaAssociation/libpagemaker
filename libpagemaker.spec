@@ -5,7 +5,7 @@
 
 Name: libpagemaker
 Version: 0.0.2
-Release: %mkrel 1
+Release: 1
 Group:	System/Libraries
 Summary: A library for import of Adobe PageMaker documents
 
@@ -58,7 +58,7 @@ Currently supported: SVG, raw.
 %autosetup -p1
 
 %build
-%configure --disable-silent-rules --disable-static --disable-werror
+%configure --disable-silent-rules --disable-werror
 sed -i \
     -e 's|^hardcode_libdir_flag_spec=.*|hardcode_libdir_flag_spec=""|g' \
     -e 's|^runpath_var=LD_RUN_PATH|runpath_var=DIE_RPATH_DIE|g' \
@@ -98,11 +98,3 @@ install -m 0644 pmd2*.1 %{buildroot}/%{_mandir}/man1
 %{_bindir}/pmd2svg
 %{_mandir}/man1/pmd2raw.1*
 %{_mandir}/man1/pmd2svg.1*
-
-
-
-%changelog
-* Sat Jan 24 2015 tv <tv> 0.0.2-1.mga5
-+ Revision: 812098
-- imported package libpagemaker
-
