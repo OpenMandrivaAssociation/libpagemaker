@@ -55,7 +55,7 @@ Tools to transform Adobe PageMaker documents into other formats.
 Currently supported: SVG, raw.
 
 %prep
-%autosetup -p1
+%setup -q
 
 %build
 %configure --disable-silent-rules --disable-werror
