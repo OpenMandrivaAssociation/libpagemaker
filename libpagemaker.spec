@@ -5,7 +5,7 @@
 
 Name: libpagemaker
 Version: 0.0.2
-Release: 1
+Release: 0.1
 Group:	System/Libraries
 Summary: A library for import of Adobe PageMaker documents
 
@@ -58,7 +58,7 @@ Currently supported: SVG, raw.
 %setup -q
 
 %build
-%configure --disable-silent-rules --disable-werror
+%configure2_5x --disable-silent-rules --disable-werror
 sed -i \
     -e 's|^hardcode_libdir_flag_spec=.*|hardcode_libdir_flag_spec=""|g' \
     -e 's|^runpath_var=LD_RUN_PATH|runpath_var=DIE_RPATH_DIE|g' \
