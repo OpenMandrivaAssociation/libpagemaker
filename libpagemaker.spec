@@ -5,7 +5,7 @@
 
 Name: libpagemaker
 Version: 0.0.2
-Release: 2
+Release: 3
 Group:	System/Libraries
 Summary: A library for import of Adobe PageMaker documents
 
