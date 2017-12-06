@@ -4,8 +4,8 @@
 %global apiversion 0.0
 
 Name: libpagemaker
-Version: 0.0.2
-Release: 5
+Version: 0.0.3
+Release: 1
 Group:	System/Libraries
 Summary: A library for import of Adobe PageMaker documents
 
