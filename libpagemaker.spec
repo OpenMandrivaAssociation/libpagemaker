@@ -4,7 +4,7 @@
 %global apiversion 0.0
 
 Name: libpagemaker
-Version: 0.0.3
+Version: 0.0.4
 Release: 1
 Group:	System/Libraries
 Summary: A library for import of Adobe PageMaker documents
@@ -96,5 +96,6 @@ install -m 0644 pmd2*.1 %{buildroot}/%{_mandir}/man1
 %files tools
 %{_bindir}/pmd2raw
 %{_bindir}/pmd2svg
+%{_bindir}/pmd2text
 %{_mandir}/man1/pmd2raw.1*
 %{_mandir}/man1/pmd2svg.1*

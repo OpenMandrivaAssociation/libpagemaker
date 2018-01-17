@@ -1,4 +1,5 @@
 removed_sources:
   libpagemaker-0.0.2.tar.xz: 306f196801bbb5d01b535052437f8320f452b330
-sources:
   libpagemaker-0.0.3.tar.xz: 88fb5e15be25a0af9998b22e3927b7f4a4a92082
+sources:
+  libpagemaker-0.0.4.tar.xz: 4e8e9a6711c6dcbb937a295135f955dee6efc52f
