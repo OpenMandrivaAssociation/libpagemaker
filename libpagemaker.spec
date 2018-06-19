@@ -5,13 +5,13 @@
 
 Name: libpagemaker
 Version: 0.0.4
-Release: 1
+Release: 2
 Group:	System/Libraries
 Summary: A library for import of Adobe PageMaker documents
 
 License: MPLv2.0
 URL: http://wiki.documentfoundation.org/DLP/Libraries/libpagemaker
-Source: http://dev-www.libreoffice.org/src/%{name}/%{name}-%{version}.tar.xz
+Source0: http://dev-www.libreoffice.org/src/%{name}/%{name}-%{version}.tar.xz
 
 BuildRequires: boost-devel
 BuildRequires: doxygen
