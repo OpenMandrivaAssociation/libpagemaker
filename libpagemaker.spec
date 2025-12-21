@@ -13,6 +13,11 @@ License: MPLv2.0
 URL: https://wiki.documentfoundation.org/DLP/Libraries/libpagemaker
 Source0: http://dev-www.libreoffice.org/src/%{name}/%{name}-%{version}.tar.xz
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: boost-devel
 BuildRequires: doxygen
 BuildRequires: help2man
